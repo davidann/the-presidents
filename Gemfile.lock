@@ -37,6 +37,8 @@ GEM
     erubis (2.7.0)
     execjs (1.4.0)
       multi_json (~> 1.0)
+    haml (4.0.3)
+      tilt
     hike (1.2.3)
     i18n (0.6.4)
     jquery-rails (2.1.4)
@@ -102,6 +104,7 @@ PLATFORMS
 
 DEPENDENCIES
   bundler (< 2.0)
+  haml
   rails (~> 4.0.0)
   rails-backbone
   rspec (~> 2.0)
